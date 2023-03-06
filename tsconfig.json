@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "esModuleInterop": true,
+        "allowJs": true
+    },
+    "include": ["src/*"],
+    "exclude": [
+        "node_modules/",
+        "./node_modules",
+        "./node_modules/*",
+        "NFSCore/",
+        "dist/"
+    ],
+    "compileOnSave": false,
+    "buildOnSave": false
+}
