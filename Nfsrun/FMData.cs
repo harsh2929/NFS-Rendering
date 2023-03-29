@@ -96,3 +96,4 @@ namespace NFSCore
         public static uint NormalAiBrakeDifference(this byte[] bytes) { return GetUInt8(bytes, 310 + BufferOffset); }
     }
 }
+//add more
